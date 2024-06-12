@@ -51,6 +51,8 @@
   gQcomTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a403
   gQcomTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a404
   gQcomTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2160|UINT32|0x0000a405
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferDelay|1|UINT32|0x0000a406
+																 
   # Touch Screen
   gQcomTokenSpaceGuid.PcdTouchCtlrAddress|0|UINT16|0x0000a501
   gQcomTokenSpaceGuid.PcdTouchCtlrResetPin|0|UINT32|0x0000a502
@@ -68,5 +70,9 @@
   gQcomTokenSpaceGuid.PcdTouchCtlrVddPinActiveLow|FALSE|BOOLEAN|0x0000a50e
   # RTC information
   gQcomTokenSpaceGuid.PcdBootShimInfo1|0xb0000000|UINT64|0x00000a601
+  # Hall sensor gpio settings
+  gQcomTokenSpaceGuid.PcdHallSensorPin|0|UINT32|0x00000a602
+  gQcomTokenSpaceGuid.PcdHallSensorActiveLow|TRUE|BOOLEAN|0x00000a603
+  gQcomTokenSpaceGuid.PcdLinuxUtilsCheckHallOnly|FALSE|BOOLEAN|0x00000a604
   # Debug UART settings
   gQcomTokenSpaceGuid.PcdDebugUartPortBase|0xa84000|UINT64|0x00000a701

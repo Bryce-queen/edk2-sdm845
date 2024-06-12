@@ -47,6 +47,7 @@
   PlatformPrePiLib
   PrePiHobListPointerLib
   PrePiLib
+  UfdtLib
 
 [Guids]
   gEfiSystemNvDataFvGuid
@@ -71,3 +72,4 @@
   gQcomTokenSpaceGuid.PcdUefiMemPoolBase
   gQcomTokenSpaceGuid.PcdUefiMemPoolSize
   gSimpleInitTokenSpaceGuid.PcdDeviceTreeStore
+  gQcomTokenSpaceGuid.PcdLinuxUtilsCheckHallOnly
